@@ -34,8 +34,8 @@ hr {
 }
 nav {
   position: relative;
-  width: 254px;
-  top: 57%;
+  width: 215px;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -52,4 +52,8 @@ nav li {
 
 nav li + li {
   margin-left: 1.5em;
+}
+
+section {
+  width: 100%;
 }
