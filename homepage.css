@@ -5,22 +5,33 @@ body {
 
 header {
   display: inline-block;
-  height: 450px;
+  height: 668px;
 }
 
 #img {
-  height: 500px;
-  width: 100%;
+  position: absolute;
 }
 
 header h1 {
   position: relative;
-  top: 0;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 430px;
+  margin: 0;
   font-size: 2.5em;
   letter-spacing: 0.3em;
+  color: white;
 }
 
-nav ul {
+nav {
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav li {
+  display: inline;
   list-style-type: none;
-  float: right
 }
