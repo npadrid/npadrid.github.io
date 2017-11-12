@@ -79,6 +79,10 @@ section h1 {
   text-align: center;
 }
 
+section h1 + h1 {
+  margin-top: 0;
+}
+
 .content-about p {
   position: relative;
   right: 20%;
