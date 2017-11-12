@@ -60,11 +60,12 @@ nav li + li {
 
 section {
   width: 100%;
-  height: 100px;
+  height: 100%;
   background: white;
 }
 
 .content-about h1 {
+  padding-top: 5%;
   color: #777;
   text-align: center;
 }
@@ -74,5 +75,8 @@ section {
 }
 
 #profile_img {
+  transform: rotate(90deg);
   left: 20%;
+  height: 50%;
+  width: 50%;
 }
