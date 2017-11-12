@@ -24,7 +24,7 @@ header h1 {
   top: 8%;
   text-align: center;
   margin: 0;
-  font-size: 2.5em;
+  font-size: 4.8vh;
   letter-spacing: 0.3em;
   color: white;
 }
@@ -52,7 +52,7 @@ nav ul {
 nav li {
   display: inline;
   list-style-type: none;
-  font-size: 1.15em;
+  font-size: 2.25vh;
 }
 
 nav li:hover {
@@ -75,20 +75,25 @@ nav li + li {
 }
 
 section h1 {
-  padding-top: 2%;
+  padding-top: 5%;
   color: #777;
   text-align: center;
   margin-top: 0;
+  font-size: 5vh;
 }
 
 .content-about {
-  margin-bottom: 8%;
+  position: relative;
+  margin-bottom: 18%;
 }
 
 .content-about p {
-  position: relative;
-  right: 20%;
+  position: absolute;
+  top: 37%;
+  margin-left: 5%;
   display: inline-block;
+  font-size: 3vh;
+  line-height: 200%;
 }
 
 #profile_img {
