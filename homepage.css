@@ -81,11 +81,15 @@ section h1 {
 
 .content-about p {
   position: relative;
-  /*right: 20%;*/
+  right: 20%;
   display: inline-block;
 }
 
 #profile_img {
   position: relative;
-  left: 12%:
+  height: 12.5%;
+  width: 27%;
+  left: 12%;
+  border-radius: 50%;
+  transform: rotate(90deg);
 }
