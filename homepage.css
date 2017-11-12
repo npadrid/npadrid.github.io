@@ -65,18 +65,17 @@ section {
 }
 
 .content-about h1 {
-  padding-top: 5%;
+  padding-top: 2%;
   color: #777;
   text-align: center;
 }
 
 .content-about p {
   right: 20%;
+  display: inline-block;
 }
 
 #profile_img {
-  transform: rotate(90deg);
-  left: 20%;
-  height: 50%;
-  width: 50%;
+  position: relative;
+  left: 12%:
 }
