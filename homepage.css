@@ -84,12 +84,12 @@ section h1 {
 
 .content-about {
   position: relative;
-  margin-bottom: 18%;
+  margin-bottom: 12%;
 }
 
 .content-about p {
   position: absolute;
-  top: 37%;
+  top: 42%;
   margin-left: 5%;
   display: inline-block;
   font-size: 3vh;
