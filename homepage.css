@@ -24,7 +24,7 @@ header h1 {
   top: 8%;
   text-align: center;
   margin: 0;
-  font-size: 4.8vh;
+  font-size: 260%;
   letter-spacing: 0.3em;
   color: white;
 }
@@ -52,7 +52,7 @@ nav ul {
 nav li {
   display: inline;
   list-style-type: none;
-  font-size: 2.25vh;
+  font-size: 125%;
 }
 
 nav li:hover {
@@ -79,7 +79,7 @@ section h1 {
   color: #777;
   text-align: center;
   margin-top: 0;
-  font-size: 5vh;
+  font-size: 250%;
 }
 
 .content-about {
@@ -92,7 +92,7 @@ section h1 {
   top: 42%;
   margin-left: 5%;
   display: inline-block;
-  font-size: 3vh;
+  font-size: 160%;
   line-height: 200%;
 }
 
