@@ -116,11 +116,16 @@ section h1 {
     margin: 10%;
   }
 
+  .content-about {
+    margin-bottom: 8%;
+  }
   .content-about p {
     font-size: 1.3rem;
-    max-width:50%;
-    top:35%;
+    min-width: 40%;
+    top: 25%;
+    margin-left: 0;
   }
+
 }
 
 /*mobile*/
