@@ -93,11 +93,11 @@ section h1 {
 .content-about p {
   position: absolute;
   top: 36%;
-  margin-left: 5%;
   display: inline-block;
-  font-size: 1.75rem;
-  line-height: 200%;
-  min-width: 598px;
+  font-size: 1.7rem;
+  line-height: 180%;
+  min-width: 600px;
+  margin-left: 5%;
 }
 
 #profile_img {
@@ -117,12 +117,6 @@ section h1 {
   }
 }
 
-@media (min-width:838px) and (max-width:1250px){
-  .content-about p{
-    font-size: 1.5rem;
-    top:33%;
-  }
-}
 @media (max-width: 770px){
   nav {
     font-size: 1rem;
@@ -174,18 +168,19 @@ section h1 {
   }
 
   #profile_img {
-    margin: 10%;
+    margin: 8%;
   }
 
   .content-about {
-    margin-bottom: 8%;
+    margin-bottom: 5%;
   }
 
   .content-about p {
     font-size: 1.3rem;
-    min-width: 40%;
-    top: 25%;
+    min-width: 450px;
+    top: 40%;
     margin-left: 0;
+    right: 5%;
   }
 
 }
@@ -217,6 +212,6 @@ section h1 {
 /*both mobile and tablet*/
 @media (min-device-width: 300px) and (max-device-width: 1024px) {
   hr{
-    top: 9%;
+    top: 10%;
   }
 }
