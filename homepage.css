@@ -92,7 +92,7 @@ section h1 {
   top: 42%;
   margin-left: 5%;
   display: inline-block;
-  font-size: 160%;
+  font-size: 1.75rem;
   line-height: 200%;
 }
 
@@ -102,4 +102,11 @@ section h1 {
   margin: 7% 0 0 8%;
   border-radius: 50%;
   transform: rotate(90deg);
+}
+
+@media (max-width: 750px) {
+  .content-about p {
+    display: block;
+    font-size: 1.1rem;
+  }
 }
