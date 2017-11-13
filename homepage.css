@@ -79,7 +79,7 @@ section h1 {
   color: #777;
   text-align: center;
   margin-top: 0;
-  font-size: 250%;
+  font-size: 3rem;
 }
 
 .content-about {
@@ -104,9 +104,17 @@ section h1 {
   transform: rotate(90deg);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 375px) {
+  nav{
+    top: 15.5%;
+  }
+  
+  hr{
+    top: 9%;
+  }
   .content-about p {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    margin: 0 8% 0 6%;
   }
 }
