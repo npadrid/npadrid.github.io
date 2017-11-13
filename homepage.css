@@ -167,7 +167,7 @@ section h1 {
 /*tablet*/
 @media (max-device-width: 1024px) and (min-device-width: 525px){
   nav{
-    top: 16.5%;
+    top: 18.5%;
   }
 
   #profile_img {
@@ -177,6 +177,7 @@ section h1 {
   .content-about {
     margin-bottom: 8%;
   }
+
   .content-about p {
     font-size: 1.3rem;
     min-width: 40%;
