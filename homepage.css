@@ -104,14 +104,15 @@ section h1 {
   transform: rotate(90deg);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   nav{
     top: 15.5%;
   }
-  
+
   hr{
     top: 9%;
   }
+
   .content-about p {
     display: block;
     font-size: 1.3rem;
