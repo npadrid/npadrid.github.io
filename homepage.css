@@ -96,7 +96,7 @@ section h1 {
   display: inline-block;
   font-size: 1.7rem;
   line-height: 180%;
-  min-width: 600px;
+  max-width: 600px;
   margin-left: 5%;
 }
 
@@ -110,8 +110,17 @@ section h1 {
 }
 
 /*browser window*/
-
-@media (max-width: 838px) and (min-width: 770px) {
+@@media (max-width:1220px) {
+  .content-about p {
+    font-size: 1.5rem;
+  }
+}
+@@media (max-width:984px) {
+  .content-about p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1125px) and (min-width: 770px) {
   .content-about p {
     font-size: 1.2rem;
   }
