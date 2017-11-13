@@ -37,19 +37,22 @@ hr {
 }
 
 nav {
-  position: absolute;
-  top: 17.5%;
+  position: relative;
+  top: -82.5%;
   left: 50%;
-  min-width: 269px;
   transform: translate(-50%, -50%);
+  max-width: 248px;
 }
 
 nav ul {
   padding: 0;
   margin: 0;
+  position: relative;
+  text-align: center;
 }
 
 nav li {
+  position: relative;
   display: inline-block;
   list-style-type: none;
   font-size: 1.3rem;
@@ -60,7 +63,7 @@ nav li:hover {
 }
 
 nav li + li {
-  margin-left: 10%;
+  margin-left: 6%;
 }
 
 #content {
@@ -156,7 +159,7 @@ section h1 {
 }
 @media (max-width: 444px) {
   nav{
-    top: 21%;
+    top: -79%%;
     min-width: 208px;
   }
   nav li {
@@ -167,7 +170,7 @@ section h1 {
 /*tablet*/
 @media (max-device-width: 1024px) and (min-device-width: 525px){
   nav{
-    top: 18.5%;
+    top: -81.5%;
   }
 
   #profile_img {
@@ -190,7 +193,7 @@ section h1 {
 /*mobile*/
 @media (max-device-width: 525px) and (min-device-width: 300px){
   nav{
-    top: 15.5%;
+    top: -84.5%;
   }
 
   #profile_img {
