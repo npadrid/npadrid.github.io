@@ -179,10 +179,27 @@ section h1 {
   hr{
     width: 48%;
   }
+  #profile_img {
+    width: 44%;
+    display: block;
+    margin: auto;
+    margin-top: 12%;
+  }
+
+  .content-about h1{
+    font-size: 1.2rem;
+  }
+
   .content-about p {
-    font-size: 1rem;
+    position: relative;
+    display: block;
+    font-size: 1.2rem;
+    margin: auto;
+    max-width: 75%;
+    margin-top: 12%;
   }
 }
+
 @media (max-width:720px){
   .content-about p {
     top: 38%;
