@@ -89,7 +89,7 @@ section h1 {
 
 .content-about p {
   position: absolute;
-  top: 40%;
+  top: 36%;
   margin-left: 5%;
   display: inline-block;
   font-size: 1.75rem;
@@ -154,12 +154,19 @@ section h1 {
 }
 
 /*browser window*/
-@media (max-width: 910px) and (min-width: 770px) {
+
+@media (max-width: 838px) and (min-width: 770px) {
   .content-about p {
     font-size: 1.2rem;
   }
 }
 
+@media (min-width:838px) and (max-width:1250px){
+  .content-about p{
+    font-size: 1.5rem;
+    top:33%;
+  }
+}
 @media (max-width: 770px){
   nav {
     font-size: 1rem;
@@ -171,13 +178,11 @@ section h1 {
     font-size: 1rem;
   }
 }
-
 @media (max-width:720px){
   .content-about p {
     top: 38%;
   }
 }
-
 @media (max-width: 444px) {
   nav{
     top: 21%;
