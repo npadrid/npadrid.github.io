@@ -116,6 +116,7 @@ footer {
   font-size: 0;
   background: rgba(12, 12, 12, 0.75);
   color: white;
+  min-height: 30%;
 }
 
 #footer_name {
@@ -151,6 +152,7 @@ footer {
 .icon-github {
   fill: white;
 }
+
 /*browser window*/
 @media (max-width:1220px) {
   .content-about {
