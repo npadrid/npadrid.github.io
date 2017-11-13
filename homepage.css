@@ -104,7 +104,25 @@ section h1 {
   transform: rotate(90deg);
 }
 
-@media (max-width: 425px) {
+
+@media (max-device-width: 1024px) and (min-device-width: 525px){
+  nav{
+    top: 16.5%;
+  }
+
+  hr{
+    top: 9%;
+  }
+
+  .content-about p {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0 8% 0 6%;
+  }
+}
+
+
+@media (max-device-width: 525px) and (min-device-width: 300px){
   nav{
     top: 15.5%;
   }
