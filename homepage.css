@@ -55,7 +55,7 @@ nav li {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 nav li:hover {
@@ -71,7 +71,7 @@ nav li + li {
 }
 
 section h1 {
-  padding-top: 5%;
+  padding-top: 4%;
   color: #777;
   text-align: center;
   margin-top: 0;
@@ -103,18 +103,32 @@ section h1 {
 #profile_img {
   position: relative;
   display: inline-block;
-  width: 35%;
-  margin: 6% 0 0 8%;
+  width: 29%;
+  margin: 0 6% 0 12%;
   border-radius: 50%;
 }
 
 /*browser window*/
 @media (max-width:1220px) {
+  .content-about {
+    margin-bottom: 10%;
+  }
+
   .content-about p {
     font-size: 1.5rem;
   }
 }
-@media (max-width:984px){
+
+@media (max-width:1075px) {
+  .content-about {
+    margin-bottom: 8%;
+  }
+  .content-about p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:994px){
   .content-about p {
     font-size: 1.3rem;
   }
@@ -122,6 +136,10 @@ section h1 {
 @media (max-width: 853px){
   .content-about p {
     font-size: 1.2rem;
+    top: 34%;
+  }
+  #profile_img {
+    margin-right: 4%;
   }
 }
 
@@ -161,7 +179,7 @@ section h1 {
 }
 @media (max-width: 444px) {
   nav{
-    top: -79%%;
+    top: -79%;
     min-width: 208px;
   }
   nav li {
