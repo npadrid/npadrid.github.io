@@ -142,3 +142,29 @@ section h1 {
     top: 9%;
   }
 }
+
+@media (max-width: 444px) {
+  nav{
+    top: 21%;
+  }
+}
+
+@media (max-width:720px){
+  .content-about p {
+    top: 38%;
+  }
+}
+@media (max-width: 770px){
+  nav {
+    font-size: 1rem;
+  }
+  .content-about p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 910px) and (min-width: 770px) {
+  .content-about p {
+    font-size: 1.2rem;
+  }
+}
