@@ -38,9 +38,9 @@ hr {
 
 nav {
   position: absolute;
-  display: inline-block;
   top: 17.5%;
   left: 50%;
+  min-width: 267px;
   transform: translate(-50%, -50%);
 }
 
@@ -50,9 +50,9 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
-  font-size: 125%;
+  font-size: 1.3rem;
 }
 
 nav li:hover {
@@ -60,7 +60,7 @@ nav li:hover {
 }
 
 nav li + li {
-  margin-left: 1.5em;
+  margin-left: 10%;
 }
 
 #content {
@@ -157,6 +157,10 @@ section h1 {
 @media (max-width: 444px) {
   nav{
     top: 21%;
+    min-width: 208px;
+  }
+  nav li {
+    font-size: 0.85rem;
   }
 }
 
@@ -168,6 +172,9 @@ section h1 {
 @media (max-width: 770px){
   nav {
     font-size: 1rem;
+  }
+  hr{
+    width: 48%;
   }
   .content-about p {
     font-size: 1rem;
