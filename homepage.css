@@ -75,7 +75,7 @@ nav li + li {
 }
 
 section h1 {
-  padding-top: 5%;
+  padding-top: 4%;
   color: #777;
   text-align: center;
   margin-top: 0;
@@ -89,7 +89,7 @@ section h1 {
 
 .content-about p {
   position: absolute;
-  top: 42%;
+  top: 40%;
   margin-left: 5%;
   display: inline-block;
   font-size: 1.75rem;
@@ -99,7 +99,7 @@ section h1 {
 #profile_img {
   position: relative;
   width: 35%;
-  margin: 7% 0 0 8%;
+  margin: 6% 0 0 8%;
   border-radius: 50%;
   transform: rotate(90deg);
 }
