@@ -116,7 +116,7 @@ footer {
   font-size: 0;
   background: rgba(12, 12, 12, 0.75);
   color: white;
-  min-height: 30%;
+  min-height: 275px;
 }
 
 #footer_name {
@@ -143,6 +143,7 @@ footer {
 
 #footer_links li {
   display: inline-block;
+  margin-top: 30%;
 }
 
 #footer_links li + li {
