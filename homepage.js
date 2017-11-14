@@ -29,17 +29,17 @@ $('#projects-footer').click(function() {
 });
 
 $(function (){
-  var i, allPics, inPic, outPic;
-  for (i = 1, allPics = $('.pics').length, i < allPics; i++) {
+  var i, allPics = $('.pics').length, inPic, outPic;
+  for (i = 1; i < allPics; i++) {
     inPic = "#pic" + i;
-    console.log(inPic);
     if(i == 1){
       console.log("first pic");
-      $('#pic1').delay(1000).fadeOut(500);
+      $('#pic1').fadeOut(5000);
     }
     else{
-      $(inPic).fadeIn(500).delay(1000).fadeOut(500);
+      $(inPic).fadeIn(5000).delay(10000).fadeOut(5000);
     }
+  }
 });
 // Javascript for timeline by Sebastiano Guerriero from CodyHouse
 
