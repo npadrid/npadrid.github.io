@@ -84,7 +84,7 @@ Main components
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img svg {
   display: block;
@@ -93,16 +93,13 @@ Main components
   position: relative;
   left: 50%;
   top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  transform: translate(-50%, -50%);
 }
 
-/*.cd-timeline-img.cd-movie {
-  background: #c03b44;
+.cd-timeline-img.cd-picture {
+  background: white;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
-}*/
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;

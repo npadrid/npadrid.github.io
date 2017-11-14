@@ -73,7 +73,7 @@ nav li + li {
   background: white;
 }
 
-section h1 {
+section h1, .content-projects h1{
   padding-top: 4%;
   color: #777;
   text-align: center;
