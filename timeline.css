@@ -86,7 +86,7 @@ Main components
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-.cd-timeline-img img {
+.cd-timeline-img svg {
   display: block;
   width: 24px;
   height: 24px;
@@ -97,12 +97,12 @@ Main components
   margin-top: -12px;
 }
 
-.cd-timeline-img.cd-movie {
+/*.cd-timeline-img.cd-movie {
   background: #c03b44;
 }
 .cd-timeline-img.cd-location {
   background: #f0ca45;
-}
+}*/
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
