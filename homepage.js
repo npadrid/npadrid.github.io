@@ -29,15 +29,14 @@ $('#projects-footer').click(function() {
 });
 
 $(function (){
-  var i, allPics = $('.pics').length, inPic, outPic;
-  for (i = 1; i < allPics; i++) {
+  var i, inPic, outPic;
+  for (i = 1; i < $('.pics').length; i++) {
     inPic = "#pic" + i;
     if(i == 1){
-      console.log("first pic");
-      $('#pic1').fadeOut(5000);
+      $('#pic1').delay(5000).fadeOut(2000);
     }
     else{
-      $(inPic).fadeIn(5000).delay(10000).fadeOut(5000);
+      $(inPic).delay(3500 * i).fadeIn(2000).delay(5000).fadeOut(2000);
     }
   }
 });
