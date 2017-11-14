@@ -73,7 +73,7 @@ nav li + li {
   background: white;
 }
 
-section h1, .content-projects h1{
+section h1{
   padding-top: 4%;
   color: #777;
   text-align: center;
@@ -109,6 +109,14 @@ section h1, .content-projects h1{
   width: 29%;
   margin: 0 6% 0 12%;
   border-radius: 50%;
+}
+
+.content-projects h1 {
+  padding-top: 3%;
+  color: #777;
+  text-align: center;
+  margin-top: 0;
+  font-size: 3rem;
 }
 
 footer {
@@ -150,7 +158,7 @@ footer {
 }
 
 #footer_links li + li {
-  margin-left: 6%;
+  margin-left: 3%;
 }
 
 #contact-icons {
