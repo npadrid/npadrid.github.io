@@ -32,12 +32,13 @@ $(function (){
   var i, allPics, inPic, outPic;
   for (i = 1, allPics = $('.pics').length, i < allPics; i++) {
     inPic = "#pic" + i;
+    console.log(inPic);
     if(i == 1){
       console.log("first pic");
       $('#pic1').delay(1000).fadeOut(500);
     }
     else{
-      $(fadingPic).fadeIn(500).delay(1000).fadeOut(500);
+      $(inPic).fadeIn(500).delay(1000).fadeOut(500);
     }
 });
 // Javascript for timeline by Sebastiano Guerriero from CodyHouse
