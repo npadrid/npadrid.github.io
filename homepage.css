@@ -135,7 +135,7 @@ footer {
   font-size: 1rem;
   margin: 0;
   padding: 0;
-  top: 50%;
+  top: 42%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -145,8 +145,29 @@ footer {
   display: inline-block;
 }
 
+#footer_links li:hover {
+  filter: brightness(36%);
+}
+
 #footer_links li + li {
   margin-left: 6%;
+}
+
+#contact-icons {
+  fill: white;
+}
+
+#contact-info {
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: 300;
+  top: 53%;
+  width: 100%;
+  text-align: center;
+}
+
+#contact-info p {
+  display: inline-block;
 }
 
 #footer_social {
@@ -158,8 +179,15 @@ footer {
   text-align: center;
 }
 
-[class*="icon-"] {
+footer a{
   fill: white;
+}
+
+footer a:hover {
+  filter: brightness(36%);
+}
+
+[class*="icon-"] {
   margin: 0 2%;
 }
 
