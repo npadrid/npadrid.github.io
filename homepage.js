@@ -30,13 +30,20 @@ $('#projects-footer').click(function() {
 
 $(function (){
   var i, inPic, outPic;
-  for (i = 1; i < $('.pics').length; i++) {
+  for (i = 1; i <= $('.pics').length; i++) {
     inPic = "#pic" + i;
     if(i == 1){
-      $('#pic1').delay(5000).fadeOut(2000);
+      $('#pic1').fadeIn(2000).delay(6000).fadeOut(2000);
+    }
+    else if(i == 2){
+      $(inPic).delay(10000).fadeIn(2000).delay(6000).fadeOut(2000);
+    }
+    else if (i == $('.pic').length) {
+      $(inPic).fadeIn(2000);
+      $('#pic10').css('display','block');
     }
     else{
-      $(inPic).delay(3500 * i).fadeIn(2000).delay(5000).fadeOut(2000);
+      $(inPic).delay(10000 * (i-1)).fadeIn(2000).delay(6000).fadeOut(2000);
     }
   }
 });
