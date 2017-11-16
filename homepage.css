@@ -120,7 +120,7 @@ section h1{
 }
 
 .content-projects {
-  margin-bottom: 12%;
+  margin-bottom: 8%;
 }
 
 #discover-separator{
@@ -133,7 +133,7 @@ section h1{
 
 .pics {
   position: relative;
-  display: none;
+  display: inline-block;
   width: 75%;
   height: 80%;
   left:50%;
