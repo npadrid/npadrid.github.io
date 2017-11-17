@@ -147,7 +147,6 @@ section h1{
   position: absolute;
   z-index: 1;
   visibility: hidden;
-  background: rgba(68, 68, 68, 0.65);
 }
 
 /*#prev-pic:hover {
@@ -174,12 +173,11 @@ section h1{
 #next-pic {
   display: inline-block;
   height: 100%;
-  max-width: 25%;
-  float: right;
+  min-width: 25%;
+  left: 25%;
   position: absolute;
   z-index: 1;
   visibility: hidden;
-  background: rgba(68, 68, 68, 0.65);
 }
 
 /*#next-pic:hover {
