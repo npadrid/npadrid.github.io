@@ -129,19 +129,71 @@ section h1{
 
 .content-discover{
   position: relative;
+  padding-bottom: 10%;
 }
+
+.photo-container{
+  position: relative;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#prev-pic {
+  display: inline-block;
+  height: 100%;
+  min-width: 25%;
+  float: left;
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  background: rgba(68, 68, 68, 0.65);
+}
+
+/*#prev-pic:hover {
+  visibility: visible;
+}*/
+
+#prev-container, #next-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  radius: 50%;
+  max-width: 75px;
+  max-height: 75px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#prev-icon, #next-icon{
+  max-width: 75px;
+  max-height: 75px;
+}
+
+#next-pic {
+  display: inline-block;
+  height: 100%;
+  max-width: 25%;
+  float: right;
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  background: rgba(68, 68, 68, 0.65);
+}
+
+/*#next-pic:hover {
+  visibility: visible;
+  background: rgba(68, 68, 68, 0.65);
+}*/
+
 
 .pics {
   position: relative;
   display: inline-block;
-  width: 75%;
-  height: 80%;
-  left:50%;
-  transform: translateX(-50%);
   border-radius: 3%;
-  margin: 2% 0 7% 0;
+  width: 100%
 }
-
 /*#pic1 {
   position: relative;
   display: block;

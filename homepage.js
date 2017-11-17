@@ -28,6 +28,27 @@ $('#projects-footer').click(function() {
         'slow');
 });
 
+
+// $("#prev-pic").mouseenter(function(e) {
+//   $('#prev-pic').css('visibility','visible');
+// });
+$(".photo-Container").on('mousemove', function(e) {
+  console.log(e.pageX);
+  console.log(this.offsetLeft);
+  console.log(this.offsetRight);
+  if ((e.pageX - this.offsetLeft) < $(this).width() / 2) {
+    $('#prev-pic').css('visibility','visible');
+  } else {
+    $('#prev-pic').css('visibility','hidden');
+    $('#next-pic').css('visibility','visible');
+  }
+});
+
+$(".photo-Container").mouseleave(function(e) {
+    $('#prev-pic').css('visibility','hidden');
+    $('#next-pic').css('visibility','hidden');
+});
+
 // $(function (){
 //   var i, inPic, outPic;
 //   for (i = 1; i <= $('.pics').length; i++) {
