@@ -123,18 +123,15 @@ section h1{
   margin-bottom: 8%;
 }
 
-#discover-separator{
-  margin-bottom: 3%;
-}
-
 .content-discover{
   position: relative;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 
 .photo-container{
   position: relative;
-  width: 60%;
+  max-width: 50vh;
+  max-height: 50vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -174,7 +171,7 @@ section h1{
   display: inline-block;
   height: 100%;
   min-width: 25%;
-  left: 25%;
+  left: 75%;
   position: absolute;
   z-index: 1;
   visibility: hidden;
@@ -190,7 +187,8 @@ section h1{
   position: relative;
   display: inline-block;
   border-radius: 3%;
-  width: 100%
+  width: 100%;
+  height: 100%;
 }
 /*#pic1 {
   position: relative;

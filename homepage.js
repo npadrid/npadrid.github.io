@@ -39,7 +39,6 @@ $(".photo-Container").on('mousemove', function(e) {
   if ((e.pageX - this.offsetLeft) < $(this).width() / 2) {
     $('#prev-pic').css('visibility','visible');
   } else {
-    $('#prev-pic').css('visibility','hidden');
     $('#next-pic').css('visibility','visible');
   }
 });
