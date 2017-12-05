@@ -415,8 +415,10 @@ footer a:hover {
   }
 
   .pics {
-    max-width: 60vw;
-    max-height: 60vh;
+    max-width: 38vw;
+    max-height: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
