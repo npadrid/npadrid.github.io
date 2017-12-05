@@ -185,17 +185,18 @@ section h1{
   height: 100%;
 }
 
+.slider{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 3%;
+}
+
 .slider-dots {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
 
-.slider{
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 3%;
-}
 .slider-dots li {
   color: #bbbcbc;
   display: inline-block;

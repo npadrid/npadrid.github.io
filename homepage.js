@@ -52,11 +52,11 @@ $('#prev-icon').click(function() {
   if(id > 1){
     var newId = id - 1;
     $('.pics').attr({'id': newId, 'src':'pic' + newId +'.JPG'});
+    var currentDot = $('.active-dot');
+    var prevDot = currentDot.prev();
+    currentDot.removeClass('active-dot');
+    prevDot.addClass('active-dot');
   }
-  var currentDot = $('.active-dot');
-  var prevDot = currentDot.prev();
-  currentDot.removeClass('active-dot');
-  prevDot.addClass('active-dot');
 });
 
 $('#next-icon').click(function() {
@@ -64,11 +64,11 @@ $('#next-icon').click(function() {
   if(id < 10){
     var newId = id + 1;
     $('.pics').attr({'id': newId, 'src':'pic' + newId +'.JPG'});
+    var currentDot = $('.active-dot');
+    var nextDot = currentDot.next();
+    currentDot.removeClass('active-dot');
+    nextDot.addClass('active-dot');
   }
-  var currentDot = $('.active-dot');
-  var nextDot = currentDot.next();
-  currentDot.removeClass('active-dot');
-  nextDot.addClass('active-dot');
 });
 
 // $(function (){
