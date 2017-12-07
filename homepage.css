@@ -407,7 +407,12 @@ footer a:hover {
 /*mobile*/
 @media (max-device-width: 525px) and (min-device-width: 300px){
   nav{
-    top: -84.5%;
+    top: -83.5%;
+    max-width: 590px;
+  }
+
+  nav li{
+    font-size:
   }
 
   #profile_img {
