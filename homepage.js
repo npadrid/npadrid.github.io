@@ -49,18 +49,25 @@ $(".photo-container").mouseleave(function(e) {
 
 $('#prev-icon').click(function() {
   var id = parseInt($('.pics').attr('id'));
-  if(id > 1){
-    var newId = id - 1;
-    $('.pics').attr({'id': newId, 'src':'pic' + newId +'.JPG'});
-    var currentDot = $('.active-dot');
-    var prevDot = currentDot.prev();
-    currentDot.removeClass('active-dot');
-    prevDot.addClass('active-dot');
-  }
+  prevPic(id);
 });
 
 $('#next-icon').click(function() {
   var id = parseInt($('.pics').attr('id'));
+  nextPic(id);
+});
+
+$('#slider-left').click(function(){
+  var id = parseInt($('.pics').attr('id'));
+  prevPic(id);
+})
+
+$('#slider-right').click(function(){
+  var id = parseInt($('.pics').attr('id'));
+  nextPic(id);
+})
+
+function nextPic(id){
   if(id < 10){
     var newId = id + 1;
     $('.pics').attr({'id': newId, 'src':'pic' + newId +'.JPG'});
@@ -69,27 +76,19 @@ $('#next-icon').click(function() {
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
   }
-});
+}
 
-// $(function (){
-//   var i, inPic, outPic;
-//   for (i = 1; i <= $('.pics').length; i++) {
-//     inPic = "#pic" + i;
-//     if(i == 1){
-//       $('#pic1').fadeIn(2000).delay(6000).fadeOut(2000);
-//     }
-//     else if(i == 2){
-//       $(inPic).delay(10000).fadeIn(2000).delay(6000).fadeOut(2000);
-//     }
-//     else if (i == $('.pic').length) {
-//       $(inPic).fadeIn(2000);
-//       $('#pic10').css('display','block');
-//     }
-//     else{
-//       $(inPic).delay(10000 * (i-1)).fadeIn(2000).delay(6000).fadeOut(2000);
-//     }
-//   }
-// });
+function prevPic(id){
+  if(id > 1){
+    var newId = id - 1;
+    $('.pics').attr({'id': newId, 'src':'pic' + newId +'.JPG'});
+    var currentDot = $('.active-dot');
+    var prevDot = currentDot.prev();
+    currentDot.removeClass('active-dot');
+    prevDot.addClass('active-dot');
+  }
+}
+
 // Javascript for timeline by Sebastiano Guerriero from CodyHouse
 
 // jQuery(document).ready(function($){

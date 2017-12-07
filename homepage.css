@@ -44,7 +44,7 @@ nav {
   top: -82.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 425px;
+  max-width: 445px;
 }
 
 nav ul {
@@ -200,6 +200,14 @@ section h1{
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+}
+
+#slider-left, #slider-right {
+    font-size: 45px;
+}
+
+#slider-left:hover, #slider-right:hover {
+  color: #363636;
 }
 
 .slider-dots li {
