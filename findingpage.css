@@ -105,6 +105,7 @@ nav li + li {
 
 #findings div{
   display: inline-block;
+  margin: 0 2%;
 }
 
 #findings p{
@@ -114,6 +115,7 @@ nav li + li {
 #research a{
   border: 1px solid black;
   padding: 2%;
+  float: right;
 }
 
 #research a:hover{
