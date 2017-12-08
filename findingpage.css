@@ -103,12 +103,13 @@ nav li + li {
   color: black;
 }
 
-#findings div{
+#research div{
   display: inline-block;
   margin: 0 2%;
+  vertical-align: top;
 }
 
-#findings p{
+#research p{
   text-align: left;
 }
 
