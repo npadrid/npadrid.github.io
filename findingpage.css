@@ -56,6 +56,14 @@ hr {
   top: 17%;
 }
 
+.content-separator {
+  width: 70%;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 50%;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+}
+
 nav {
   position: relative;
   top: 16.5%;

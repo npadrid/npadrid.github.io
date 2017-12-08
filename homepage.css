@@ -151,10 +151,6 @@ section h1{
   visibility: hidden;
 }
 
-/*#prev-pic:hover {
-  visibility: visible;
-}*/
-
 #prev-container, #next-container{
   position: absolute;
   top: 50%;
