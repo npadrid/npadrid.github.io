@@ -98,7 +98,7 @@ nav li + li {
   margin: 0 0 15px 0;
 }
 
-#learn {
+.learn {
   text-decoration: none;
   color: black;
   border: 1px solid black;
@@ -106,7 +106,7 @@ nav li + li {
   float: right;
 }
 
-#learn:hover{
+.learn:hover{
   border-color: rgba(0,0,0,0.5);
   background: rgba(0,0,0,0.5);
   color: white;
