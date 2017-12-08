@@ -101,26 +101,28 @@ nav li + li {
 #findings a{
   text-decoration: none;
   color: black;
-}
-
-#research div{
-  display: inline-block;
-  margin: 0 2%;
-  vertical-align: top;
-}
-
-#research p{
-  text-align: left;
-}
-
-#research a{
   border: 1px solid black;
   padding: 2%;
   float: right;
 }
 
-#research a:hover{
+#findings a:hover{
   border-color: rgba(0,0,0,0.5);
   background: rgba(0,0,0,0.5);
   color: white;
+}
+
+#discover_test{
+  margin-left: 2%;
+  display: inline-block;
+}
+
+#findings div{
+  display: inline-block;
+  margin: 0 2%;
+  vertical-align: top;
+}
+
+#findings p{
+  text-align: left;
 }
