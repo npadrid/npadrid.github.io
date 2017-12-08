@@ -28,10 +28,6 @@ $('#projects-footer').click(function() {
         'slow');
 });
 
-
-// $("#prev-pic").mouseenter(function(e) {
-//   $('#prev-pic').css('visibility','visible');
-// });
 $(".photo-container").on('mousemove', function(e) {
   if (e.pageX < ($(this).offset().left + $(this).width() / 2)) {
     $('#next-pic').css('visibility','hidden');

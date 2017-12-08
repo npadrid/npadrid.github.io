@@ -106,3 +106,7 @@ nav li + li {
 #findings div{
   display: inline-block;
 }
+
+#findings p{
+  text-align: left;
+}
