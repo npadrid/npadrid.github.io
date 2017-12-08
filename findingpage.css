@@ -8,25 +8,33 @@ body {
 }
 
 #homepage {
-  float:right;
+  position: absolute;
+  top: 2.5%;
+  right: 3%;
+  background: black;
   color: white;
+  padding: 0.8rem;
+  border-radius: 10%;
+  font-size: 1.3rem;
+  z-index: 1;
 }
 
 #homepage:hover{
-
+  background: rgba(0,0,0,0.7);
 }
 
 #content {
   font-size: 0;
 }
 header {
+  position: absolute;
   height: 45%;
   width: 100%;
 }
 
 header h1 {
   position: relative;
-  top: 10%;
+  top: 17%;
   text-align: center;
   margin: 0;
   font-size: 3rem;
@@ -45,12 +53,12 @@ hr {
   position: relative;
   width: 340px;
   border-top: 1px solid white;
-  top: 10%;
+  top: 17%;
 }
 
 nav {
   position: relative;
-  top: -30.5%;
+  top: 14.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 425px;
@@ -79,6 +87,8 @@ nav li + li {
 }
 
 #findings {
+  position: relative;
+  top: 30%;
   background: rgba(255,255,255,0.65);
   text-align: center;
   padding: 3% 0;
@@ -91,4 +101,8 @@ nav li + li {
 #findings a{
   text-decoration: none;
   color: black;
+}
+
+#findings div{
+  display: inline-block;
 }
