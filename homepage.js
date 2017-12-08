@@ -85,6 +85,18 @@ function prevPic(id){
   }
 }
 
+var scrolled = 600;
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > scrolled ) {
+    $('a.scrollToTop').fadeIn('slow');
+  } else {
+    $('a.scrollToTop').fadeOut('slow');
+  }
+});
+
+$('a.scrollToTop').click(function() {
+  $('html, body').animate({ scrollTop: 0 }, 700);
+});
 // Javascript for timeline by Sebastiano Guerriero from CodyHouse
 
 // jQuery(document).ready(function($){
