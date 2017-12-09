@@ -139,3 +139,8 @@ nav li + li {
 #findings p{
   text-align: left;
 }
+
+#summary p{
+  text-align: left;
+  padding: 0 12%;
+}
